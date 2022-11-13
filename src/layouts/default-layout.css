@@ -1,0 +1,79 @@
+.default-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.default-layout .top-bar {
+  margin-top: 43px;
+  width: 100%;
+}
+
+.default-layout .top-bar a {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+
+  text-decoration: none;
+}
+
+.button {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  padding: 15px 27px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #1d1d1e;
+  padding: 63px 0;
+}
+
+.footer .footer-social-links {
+  margin-top: 80px;
+}
+
+.footer .footer-copyright-message {
+  margin-top: 50px;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f7f7f7;
+}
+
+.footer .footer-links-header {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer li a {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #f1f3f9;
+  text-decoration: none;
+}
