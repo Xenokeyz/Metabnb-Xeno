@@ -13,11 +13,18 @@
   color: #434343;
 }
 
+.place img {
+  width: 100%;
+}
+
+.place span {
+  font-weight: 700;
+}
+
 .place .heart {
-  display: none;
   position: absolute;
-  top: 21px;
-  right: 23px;
+  top: 24px;
+  right: 24px;
   cursor: pointer;
   padding: 0;
   line-height: 0;
@@ -26,7 +33,8 @@
 }
 
 .place .heart img {
-  width: 40px;
+  width: 24px;
+  height: 24px;
 }
 
 @media (min-width: 768px) {
@@ -39,19 +47,4 @@
   .place {
     max-width: 292px;
   }
-  .place .heart img {
-    width: 35px;
-  }
-  .place .heart {
-    top: 21px;
-    right: 24px;
-  }
-}
-
-.place img {
-  width: 100%;
-}
-
-.place span {
-  font-weight: 700;
 }

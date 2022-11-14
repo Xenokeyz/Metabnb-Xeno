@@ -181,6 +181,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .md-d-none {
+    display: none;
+  }
+
   .md-d-block {
     display: block;
   }
@@ -200,6 +204,10 @@ img {
 }
 
 @media (min-width: 1024px) {
+  .lg-d-none {
+    display: none;
+  }
+
   .lg-d-block {
     display: block;
   }
@@ -219,6 +227,10 @@ img {
 }
 
 @media (min-width: 1440px) {
+  .xl-d-none {
+    display: none;
+  }
+
   .xl-d-block {
     display: block;
   }

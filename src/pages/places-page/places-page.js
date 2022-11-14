@@ -1,11 +1,43 @@
-import { Place } from "../../components/place";
+import { Airbnb } from "../../components//place";
 import placeOne from "../../images/place1.png";
+import placeTwo from "../../images/place2.png";
+import placeThree from "../../images/place3.png";
+import placeFour from "../../images/place4.png";
+import placeFive from "../../images/place5.png";
+import placeSix from "../../images/place6.png";
+import placeSeven from "../../images/place7.png";
+import placeEight from "../../images/place8.png";
+import place9 from "../../images/place9.png";
+import place10 from "../../images/place10.png";
+import place11 from "../../images/place11.png";
+import place12 from "../../images/place12.png";
+import place13 from "../../images/place13.png";
+import place14 from "../../images/place14.png";
+import place15 from "../../images/place15.png";
+import place16 from "../../images/place16.png";
 import settingIcon from "../../images/setting-icon.svg";
 import { DefaultLayout } from "../../layouts/default-layout";
 import "./places-page.css";
 
 function PlacesPage() {
-  const places = Array(16).fill(placeOne);
+  const airbnb = [
+    placeFive,
+    placeSix,
+    placeSeven,
+    placeEight,
+    placeOne,
+    placeTwo,
+    placeThree,
+    placeFour,
+    place9,
+    place10,
+    place11,
+    place12,
+    place13,
+    place14,
+    place15,
+    place16,
+  ];
   return (
     <DefaultLayout>
       <div className="places-page">
@@ -43,8 +75,8 @@ function PlacesPage() {
               className="d-flex flex-wrap justify-content-center"
               style={{ "--gap": "24px" }}
             >
-              {places.map((place, i) => {
-                return <Place image={place} key={i} />;
+              {airbnb.map((_Airbnb, i) => {
+                return <Airbnb image={_Airbnb} key={i} />;
               })}
             </div>
           </div>

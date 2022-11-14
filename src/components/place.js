@@ -2,7 +2,7 @@ import heart from "../images/heart.svg";
 import star from "../images/star.svg";
 import "./place.css";
 
-export function Place(props) {
+export function Airbnb(props) {
   return (
     <div className="place">
       <div className="d-grid" style={{ "--gap": "16px" }}>

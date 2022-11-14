@@ -3,17 +3,19 @@ import logoLight from "../images/logo-light.svg";
 import instagram from "../images/icon-instagram.svg";
 import twitter from "../images/icon-twitter.svg";
 import facebook from "../images/icon-facebook.svg";
+import horizontalLines from "../images/horizontal-lines.svg";
 import "./default-layout.css";
 import NiceModal from "@ebay/nice-modal-react";
 import { ConnectWalletModal } from "../modals/connect-wallet";
 import { Link, NavLink } from "react-router-dom";
+import { MobileMenu } from "../modals/mobile-menu/mobile-menu";
 
 export function DefaultLayout(props) {
   return (
     <div className="default-layout">
       <div className="top-bar">
         <div className="container">
-          <div className="md-d-flex md-justify-content-space-between md-align-items-center">
+          <div className="d-flex justify-content-space-between align-items-center">
             <Link to="/metabnb">
               <img src={logo} alt="" />
             </Link>
@@ -22,17 +24,32 @@ export function DefaultLayout(props) {
               className="top-nav d-none lg-d-flex"
               style={{ "--gap": "48px" }}
             >
-              <NavLink to="/metabnb">Home</NavLink>
-              <NavLink to="/metabnb/places">Place to stay</NavLink>
-              <a href="#NFTs">NFTs</a>
-              <a href="#Community">Community</a>
+              <NavLink className="nav-link" to="/metabnb">
+                Home
+              </NavLink>
+              <NavLink className="nav-link" to="/metabnb/places">
+                Place to stay
+              </NavLink>
+              <a className="nav-link" href="#NFTs">
+                NFTs
+              </a>
+              <a className="nav-link" href="#Community">
+                Community
+              </a>
             </div>
 
             <button
-              className="button d-none md-d-block"
+              className="button d-none lg-d-block"
               onClick={() => NiceModal.show(ConnectWalletModal)}
             >
               Connect wallet
+            </button>
+
+            <button
+              onClick={() => NiceModal.show(MobileMenu)}
+              className="lg-d-none mobile-menu-button"
+            >
+              <img src={horizontalLines} alt="" />
             </button>
           </div>
         </div>
