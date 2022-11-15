@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Metabnb-Xeno/static/css/main.af35bcf5.css",
-    "main.js": "/Metabnb-Xeno/static/js/main.65414f32.js",
+    "main.js": "/Metabnb-Xeno/static/js/main.1be3c73f.js",
     "static/media/nft2.png": "/Metabnb-Xeno/static/media/nft2.fefa1622ed8aabbc79f5.png",
     "static/media/nft1.png": "/Metabnb-Xeno/static/media/nft1.523a08d0c99f8e54a111.png",
     "static/media/meta-logo.svg": "/Metabnb-Xeno/static/media/meta-logo.7dea21aa0d244cdfa8f0c48d5178a2ea.svg",
@@ -43,10 +43,10 @@
     "static/media/close-icon.svg": "/Metabnb-Xeno/static/media/close-icon.619c8b7ea4422a9a8647a77a4c9668b2.svg",
     "static/media/horizontal-lines.svg": "/Metabnb-Xeno/static/media/horizontal-lines.b2b41bf17c0c242ab7ad11c95856bfe7.svg",
     "main.af35bcf5.css.map": "/Metabnb-Xeno/static/css/main.af35bcf5.css.map",
-    "main.65414f32.js.map": "/Metabnb-Xeno/static/js/main.65414f32.js.map"
+    "main.1be3c73f.js.map": "/Metabnb-Xeno/static/js/main.1be3c73f.js.map"
   },
   "entrypoints": [
     "static/css/main.af35bcf5.css",
-    "static/js/main.65414f32.js"
+    "static/js/main.1be3c73f.js"
   ]
 }
