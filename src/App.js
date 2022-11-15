@@ -7,8 +7,8 @@ import PlacesPage from "./pages/places-page/places-page";
 function App() {
   return (
     <Routes>
-      <Route path="/metabnb" element={<HomePage />} />
-      <Route path="/metabnb/places" element={<PlacesPage />} />
+      <Route path="/Metabnb-Xeno" element={<HomePage />} />
+      <Route path="/Metabnb-Xeno/places" element={<PlacesPage />} />
     </Routes>
   );
 }

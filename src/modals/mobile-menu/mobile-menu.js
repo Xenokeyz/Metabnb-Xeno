@@ -27,13 +27,17 @@ export const MobileMenu = NiceModal.create(function MobileMenu() {
         <div className="container">
           <div className="d-grid" style={{ "--gap": "65px" }}>
             <div className="d-grid" style={{ "--gap": "48px" }}>
-              <NavLink onClick={modal.hide} className="nav-link" to="/metabnb">
+              <NavLink
+                onClick={modal.hide}
+                className="nav-link"
+                to="/Metabnb-Xeno"
+              >
                 Home
               </NavLink>
               <NavLink
                 onClick={modal.hide}
                 className="nav-link"
-                to="/metabnb/places"
+                to="/Metabnb-Xeno/places"
               >
                 Place to stay
               </NavLink>

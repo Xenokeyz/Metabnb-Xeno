@@ -27,7 +27,7 @@ export function DefaultLayout(props) {
               <NavLink className="nav-link" to="/metabnb">
                 Home
               </NavLink>
-              <NavLink className="nav-link" to="/metabnb/places">
+              <NavLink className="nav-link" to="/Metabnb-Xeno/places">
                 Place to stay
               </NavLink>
               <a className="nav-link" href="#NFTs">
@@ -109,39 +109,39 @@ export function DefaultLayout(props) {
             </div>
 
             <div className="d-grid" style={{ "--gap": "23px" }}>
-              <p className="footer-links-header">Community</p>
+              <p className="footer-links-header">Places</p>
 
               <ul className="d-grid" style={{ "--gap": "16px" }}>
                 <li>
-                  <a href="#nft">NFT</a>
+                  <a href="#nft">Castle</a>
                 </li>
                 <li>
-                  <a href="#tokens">Tokens</a>
+                  <a href="#tokens">Farms </a>
                 </li>
                 <li>
-                  <a href="#landlords">Landlords</a>
+                  <a href="#landlords">Beach</a>
                 </li>
                 <li>
-                  <a href="#discord">Discord</a>
+                  <a href="#discord">Learn more</a>
                 </li>
               </ul>
             </div>
 
             <div className="d-grid" style={{ "--gap": "23px" }}>
-              <p className="footer-links-header">Community</p>
+              <p className="footer-links-header">About us</p>
 
               <ul className="d-grid" style={{ "--gap": "16px" }}>
                 <li>
-                  <a href="#nft">NFT</a>
+                  <a href="#nft">Road map</a>
                 </li>
                 <li>
-                  <a href="#tokens">Tokens</a>
+                  <a href="#tokens">Creators </a>
                 </li>
                 <li>
-                  <a href="#landlords">Landlords</a>
+                  <a href="#landlords">Career</a>
                 </li>
                 <li>
-                  <a href="#discord">Discord</a>
+                  <a href="#discord">Contact us</a>
                 </li>
               </ul>
             </div>
